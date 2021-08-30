@@ -49,6 +49,14 @@ body img{
     border-radius: 10px;
 }
 
+h1{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    line-height: 19px;
+    padding: 10vh 0vw 5vh 5vw;
+}
+
 h2{
     font-size: 20px;
     font-family: 'Catamaran', sans-serif;
@@ -61,6 +69,12 @@ h3{
     font-size: 19px;
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
+}
+
+h4{
+    font-size: 19px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
 }
 
 p{
@@ -275,4 +289,39 @@ button:active{
 
 #individuales:hover{
     background-color: black;
+}
+
+/*Estilos Próximos Estrenos*/
+
+#pelisSept{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisOct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisNov{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#pelisDic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.pelisMes{
+    display: flex;
+    flex-direction: column;
 }
